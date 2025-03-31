@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #a2b5cd;
+  background-image: url(Light-blue-tech-background-vector-01.jpg);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(3, 18, 82);
+  background: url(Net.jpg) center center/cover no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  color: #ffffff;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: xx-large;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.h1 {
+  color: #1c1c1c;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10px;
+  margin-top: 60px;
+  text-shadow: 2px 2px 8px rgba(53, 47, 47, 0.6);
+  text-align: center;
+  transform: translateY(-70px);
+}
+
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.event-box {
+  background: rgb(10, 11, 13);
+  height: 310px;
+  width: 340px;
+  padding: 15px;
+  margin-left: 90px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 8px 5px 8px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+.event-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.event-box h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #f9fafa;
+  margin-top: 10px;
+}
+
+.event-box p {
+  font-size: 14px;
+  color: #939191;
+  margin-bottom: 10px;
+}
+.event-button {
+  display: inline-block;
+  background: #0a4381;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.event-button:hover {
+  background: #0056b3;
+}
+
+.event-image {
+  height: 170px;
+  width: 340px;
+}
